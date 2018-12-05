@@ -302,4 +302,13 @@ footer a {
   text-decoration: underline;
 }
 
+/*///// End of Footer /////*/
+
+/*///// Clearfix /////*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* code examples copyright Jonathan Grover 2012 */
